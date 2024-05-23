@@ -14,7 +14,6 @@ def reset_table():
         table[y] = general_table[y]
         y = y + 1
 
-
 def verify(plchoice):
     if (table[int(plchoice)-1] == " X " or table[int(plchoice)-1] == " L "):
         return 1
